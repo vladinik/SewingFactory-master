@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b32b1cc7a93347699fcf58af9154744b" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="FurnitureModel.Cloth" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.FabricWarehouse" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.Furniture" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.Order" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.Product" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.User" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.WarehouseOfFittings" Width="2.375" PointX="9.125" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.OrderedProducts" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FurnitureModel.ProductFittings" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="FurnitureModel.FK_FabricWarehouse_Cloth" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FK_ProductFittings_Furniture" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FK_WarehouseOfFittings_Furniture" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FK_Order_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FK_OrderedProducts_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FK_OrderedProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FK_ProductFittings_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="FurnitureModel.FabricsOfTheProduct" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FurnitureModel.Entrance" Width="1.5" PointX="13.125" PointY="2.625" />
+        <EntityTypeShape EntityType="FurnitureModel.Provider" Width="1.5" PointX="10.875" PointY="4.5" />
+        <AssociationConnector Association="FurnitureModel.FK_Entrance_Cloth" />
+        <AssociationConnector Association="FurnitureModel.FK_Entrance_Provider" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
